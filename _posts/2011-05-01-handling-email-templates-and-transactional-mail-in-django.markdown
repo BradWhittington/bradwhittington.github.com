@@ -47,6 +47,7 @@ and some other
 I decided to build something a bit useful for more thant just me.
 The result is an
 [email template solution for django](https://github.com/bradwhittington/django-templated-email).
+
 It isn't perfect, but it scratches my itch. I wanted a simple way
 to template and send emails, control html and plain text versions
 easily, and, most importantly, have a growth strategy to move
@@ -56,7 +57,9 @@ opposed to mass mailing management), grow up to support different
 development/deployment patterns. I was looking for the equivalent
 of
 [render\_to\_response](http://docs.djangoproject.com/en/dev/topics/http/shortcuts/#render-to-response)
-for email. I have experience with
+for email. 
+
+I have experience with
 [Silverpop's transactional email](http://www.silverpop.com/)
 component, and after some poking around I found the excellent
 [PostageApp](http://postageapp.com/) for handling transactional
@@ -67,6 +70,7 @@ is okay, but, email is a crazy beast, and if you can farm out the
 nitty gritty of complex html email to a 3rd party provider, then it
 is a winner (especially if it means not having to be IT support to
 designers who are rocky in their grasp of version control systems).
+
 So far I have built a simple back-end which uses Django's built in
 send\_mail(), rendering the templates from a specific template
 directory (namely templates/templated\_email). I have tested that
@@ -84,11 +88,15 @@ production, with stub templates to handle rough testing and
 development, without eating into more expensive emails in
 production, allowing me to focus on developing in my IDE, without
 having to break out into a different environment, just to cater for
-emails. I have built a rough and untested back-end for rendering
+emails. 
+
+I have built a rough and untested back-end for rendering
 using Django's template system, and sending with
 [Mailchimp's STS](http://apidocs.mailchimp.com/sts/1.0/) backend
 (which adds tracking on top of SES). But I don't know when I will
-have the time to knuckle down and test it properly. I also saw a
+have the time to knuckle down and test it properly. 
+
+I also saw a
 pretty nifty (I guess you can call it that?) implementation of
 [getting your plain-text, html, and email subject into a single file here](http://stackoverflow.com/questions/2051526/email-templating-in-django)
 I don't love the specific hacking of the Django template rendering
