@@ -6,27 +6,15 @@ slug: streaming-a-django-serializer-to-s3
 status: publish
 title: '"Streaming" a django serializer to amazon S3 using boto'
 wordpress_id: '11'
-categories:
-- Django
-- Gist
-- Python
 tag:
 - amazon
-- amazon
 - backup
-- backup
-- boto
 - boto
 - Django
-- django
-- django
 - Gist
 - Python
 - python
-- python
 - s3
-- s3
-- serialization
 - serialization
 ---
 

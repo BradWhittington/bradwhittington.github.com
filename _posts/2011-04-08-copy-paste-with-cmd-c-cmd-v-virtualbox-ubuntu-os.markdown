@@ -6,29 +6,13 @@ slug: copy-paste-with-cmd-c-cmd-v-virtualbox-ubuntu-os
 status: publish
 title: Copy-paste with ⌘-c and ⌘-v in ubuntu running in virtualbox (on an OSX host)
 wordpress_id: '16'
-categories:
-- Development
-- Django
-- OSX
-- Ubuntu
 tag:
 - Development
-- development
-- development
 - Django
-- django
-- django
-- linux
 - linux
 - OSX
-- osx
-- osx
 - Ubuntu
-- ubuntu
-- ubuntu
 - vim
-- vim
-- virtualbox
 - virtualbox
 ---
 
