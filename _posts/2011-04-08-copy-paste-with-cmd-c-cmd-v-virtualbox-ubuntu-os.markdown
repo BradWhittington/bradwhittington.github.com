@@ -33,10 +33,10 @@ virtual machine by explicitly toggling modes (it is like caps-lock
 for where your keyboard input should go; to the host OSX, or the
 guest, Ubuntu). Easily fixed! Go to Virtualbox preferences
 (shortcut ⌘,), choose 'input' and set the Host key to another key
-(I chose right-⌘), and uncheck 'Auto capture keyboard': [caption
-id="attachment\_17" align="aligncenter" width="553"
-caption="Virtualbox input
-preferences"]![Set the Host key to something else, disable 'Auto capture keyboard'](http://bradwhittington.files.wordpress.com/2011/04/screen-shot-2011-04-02-at-12-28-39-pm.png "Virtualbox input preferences")[/caption]
+(I chose right-⌘), and uncheck 'Auto capture keyboard': 
+
+![Set the Host key to something else, disable 'Auto capture keyboard'](http://bradwhittington.files.wordpress.com/2011/04/screen-shot-2011-04-02-at-12-28-39-pm.png "Virtualbox input preferences")
+
 This has a side benefit of making the left ⌘ behave more sensibly,
 I can now ⌘-tab between virtualbox and other applications, where
 the action used to be tap ⌘, ⌘-tab to switch input to the host, and
@@ -48,15 +48,15 @@ ctrl-v shortcuts (fielding suggestions now). At least getting rid
 of one copy-paste set of shortcuts is a win, and my most common
 use-case is satisfied (copying from OSX and pasting in a terminal
 in Ubuntu). To change gnome-terminal, choose Edit -\> Keyboard
-Shortcuts... [caption id="attachment\_18" align="aligncenter"
-width="614" caption="In gnome-terminal choose Edit -\> Keyboard
-Preferences..."][![Choose Edit -\> Keyboard Preferences...](http://bradwhittington.files.wordpress.com/2011/04/screen-shot-2011-04-02-at-12-35-13-pm.png "Gnome-terminal")](http://bradwhittington.files.wordpress.com/2011/04/screen-shot-2011-04-02-at-12-35-13-pm.png)[/caption]
+Shortcuts... 
+
+![Choose Edit -\> Keyboard Preferences...](http://bradwhittington.files.wordpress.com/2011/04/screen-shot-2011-04-02-at-12-35-13-pm.png "Gnome-terminal")](http://bradwhittington.files.wordpress.com/2011/04/screen-shot-2011-04-02-at-12-35-13-pm.png)
+
 Finally, set your edit keys to "Super+c" and "Super+v" (click the
-existing shortcut, and hit the new keyboard combo): [caption
-id="attachment\_19" align="aligncenter" width="475" caption="Set
-your copy and paste shortcuts to "Super+c" and "Super+v" in
-gnome-terminal keyboard
-shortcuts"][![Set your copy and paste shortcuts to "Super+c" and "Super+v"](http://bradwhittington.files.wordpress.com/2011/04/screen-shot-2011-04-02-at-12-35-33-pm.png "Gnome-terminal keyboard shortcut preferences")](http://bradwhittington.files.wordpress.com/2011/04/screen-shot-2011-04-02-at-12-35-33-pm.png)[/caption]
+existing shortcut, and hit the new keyboard combo): 
+
+![Set your copy and paste shortcuts to "Super+c" and "Super+v"](http://bradwhittington.files.wordpress.com/2011/04/screen-shot-2011-04-02-at-12-35-33-pm.png "Gnome-terminal keyboard shortcut preferences")](http://bradwhittington.files.wordpress.com/2011/04/screen-shot-2011-04-02-at-12-35-33-pm.png)
+
 All done. Maybe a long post on something so random, but, after
 using this setup for almost 2 years, my heart did a little jump for
 joy at this triviality. Looking for suggestions how I can change /
