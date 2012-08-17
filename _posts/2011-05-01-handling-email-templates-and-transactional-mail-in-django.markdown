@@ -6,16 +6,7 @@ slug: handling-email-templates-and-transactional-mail-in-django
 status: publish
 title: Handling email templates and transactional mail in Django
 wordpress_id: '24'
-tag:
-- Development
-- Django
-- Email
-- PostageApp
-- Python
-- SES
-- templates
-- templating
-- transactional email
+tag: [Development, Django, Email, PostageApp, Python, SES, templates, templating, transactional email]
 ---
 
 There is a common pattern when building web applications, of
