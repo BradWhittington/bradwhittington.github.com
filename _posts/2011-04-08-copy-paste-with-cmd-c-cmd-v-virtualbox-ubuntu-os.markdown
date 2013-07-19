@@ -1,7 +1,7 @@
 ---
 author: bradwhittington
 date: '2011-04-08 12:52:55'
-layout: post
+layout: post_page
 slug: copy-paste-with-cmd-c-cmd-v-virtualbox-ubuntu-os
 status: publish
 title: Copy-paste with ⌘-c and ⌘-v in ubuntu running in virtualbox (on an OSX host)

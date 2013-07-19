@@ -1,7 +1,7 @@
 ---
 author: bradwhittington
 date: '2011-03-21 11:52:23'
-layout: post
+layout: post_page
 slug: streaming-a-django-serializer-to-s3
 status: publish
 title: '"Streaming" a django serializer to amazon S3 using boto'

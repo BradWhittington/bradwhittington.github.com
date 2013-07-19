@@ -1,7 +1,7 @@
 ---
 author: bradwhittington
 date: '2011-05-01 23:24:51'
-layout: post
+layout: post_page
 slug: handling-email-templates-and-transactional-mail-in-django
 status: publish
 title: Handling email templates and transactional mail in Django
