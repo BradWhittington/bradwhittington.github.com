@@ -35,7 +35,7 @@ guest, Ubuntu). Easily fixed! Go to Virtualbox preferences
 (shortcut ⌘,), choose 'input' and set the Host key to another key
 (I chose right-⌘), and uncheck 'Auto capture keyboard': 
 
-![Set the Host key to something else, disable 'Auto capture keyboard'](http://bradwhittington.files.wordpress.com/2011/04/screen-shot-2011-04-02-at-12-28-39-pm.png "Virtualbox input preferences")
+![Set the Host key to something else, disable 'Auto capture keyboard'](/img/screen-shot-2011-04-02-at-12-28-39-pm.png "Virtualbox input preferences")
 
 This has a side benefit of making the left ⌘ behave more sensibly,
 I can now ⌘-tab between virtualbox and other applications, where
@@ -50,12 +50,12 @@ use-case is satisfied (copying from OSX and pasting in a terminal
 in Ubuntu). To change gnome-terminal, choose Edit -\> Keyboard
 Shortcuts... 
 
-![Choose Edit -\> Keyboard Preferences...](http://bradwhittington.files.wordpress.com/2011/04/screen-shot-2011-04-02-at-12-35-13-pm.png "Gnome-terminal")](http://bradwhittington.files.wordpress.com/2011/04/screen-shot-2011-04-02-at-12-35-13-pm.png)
+![Choose Edit -\> Keyboard Preferences...](/img/screen-shot-2011-04-02-at-12-35-13-pm.png "Gnome-terminal")](/img/screen-shot-2011-04-02-at-12-35-13-pm.png)
 
 Finally, set your edit keys to "Super+c" and "Super+v" (click the
 existing shortcut, and hit the new keyboard combo): 
 
-![Set your copy and paste shortcuts to "Super+c" and "Super+v"](http://bradwhittington.files.wordpress.com/2011/04/screen-shot-2011-04-02-at-12-35-33-pm.png "Gnome-terminal keyboard shortcut preferences")](http://bradwhittington.files.wordpress.com/2011/04/screen-shot-2011-04-02-at-12-35-33-pm.png)
+![Set your copy and paste shortcuts to "Super+c" and "Super+v"](/img/screen-shot-2011-04-02-at-12-35-33-pm.png "Gnome-terminal keyboard shortcut preferences")](/img/screen-shot-2011-04-02-at-12-35-33-pm.png)
 
 All done. Maybe a long post on something so random, but, after
 using this setup for almost 2 years, my heart did a little jump for

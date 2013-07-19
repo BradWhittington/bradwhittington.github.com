@@ -1,6 +1,67 @@
----
-theme:
-  name: dinky
----
-{% include JB/setup %}
-{% include themes/dinky/default.html %}
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<title>{% if page.title %} {{ page.title }} {% endif %} - The Toolbelt</title>
+		<!-- For responsive site
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		-->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="description" content="Description Goes Here">
+		<link rel="stylesheet" href="/css/style.css">
+		<!--[if IE 7]>
+			<html class="ie7"> 
+			<link rel="stylesheet" type="text/css" href="/css/font-awesome-ie7.min.css">
+		<![endif]-->
+		<!--[if IE 8]><html class="ie8"> <![endif]-->		
+	    <!--[if lt IE 9]>
+	      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	    <![endif]-->
+
+		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
+		<link rel="shortcut icon" href="ico/favicon.png">	    
+	</head>
+	<body>
+	<!-- Header
+	    ================================================== -->
+	<header>
+
+	</header>
+
+	{{ content }}
+
+	<footer>
+        <div class="container">
+            <p>I'm Bradley Whittington. I run the web team and act as a product owner at <a href="http://mxit.com">Mxit</a>. You can follow my twitter account, <a href="http://twitter.com/darb">@darb</a>. Connect with me on <a href="http://github.com/bradwhittington">Github</a>, <a href="http://linkedin.com/in/bradleywhittington">LinkedIn</a>, <a href="http://www.facebook.com/bradwhittington">Facebook</a> or <a href="https://foursquare.com/user/2842699">foursquare</a>.</p>
+        </div>
+		<div class="container">
+			<a href="http://pocket.toolbelt.co.za/">Pocket reference</a>| Theme: <a href="http://richbray.me/frap/">Frappuccino</a> | &copy; Bradley Whittington
+		</div>
+	</footer>
+
+	<!-- Footer
+	    ================================================== -->
+
+	<!-- Javascripts 
+	    ================================================= -->
+	<script src="/js/jquery.min.js"></script>
+	<script src="/js/custom.js"></script>
+
+    <!-- Analytics
+    ================================================== -->
+    <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-34167350-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+     })();
+    </script>
+	</body>
+</html>
